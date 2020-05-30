@@ -1,7 +1,7 @@
 <?php
 	$values = $_POST["values"];
 
-	echo "Message connection successfull.\n<br>";
+
 	if($values != ""){
 		echo "values:".$values;
 

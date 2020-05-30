@@ -1,8 +1,8 @@
 <?php
 	$values = $_POST["values"];
 
-	if(values != ""){
-		echo "Message connection successfull.";
+	echo "Message connection successfull.\n<br>";
+	if($values != ""){
 		echo "values:".$values;
 
 		$file = fopen("values.txt", "w");
